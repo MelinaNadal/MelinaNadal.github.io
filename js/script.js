@@ -7,6 +7,7 @@ const $name = $('#name');
 const $symbol = $('#symbol');
 const $price = $('#price');
 const $description = $('#description');
+const $iconURL = $('#iconURL')
 
 
 $('form').on('submit', handleGetData);
@@ -36,6 +37,7 @@ function handleGetData(event) {
     cryptoData.symbol=response.data.coin.symbol
     cryptoData.price=response.data.coin.price
     cryptoData.description=response.data.coin.description
+    cryptoData.iconURL=response.data.coin.iconURL
     render()
   });
 }
@@ -45,7 +47,8 @@ function handleGetData(event) {
   $name.text(cryptoData.name);
   $symbol.text(cryptoData.symbol);
 	$price.text(cryptoData.price);
-	$description.text(cryptoData.description);
+  $description.text(cryptoData.description);
+  $iconURL.text(cryptoData.iconURL);
  }
   
 	
