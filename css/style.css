@@ -44,6 +44,7 @@ img {
     max-height: 95px;
 }
 p {
+    font-family: arial;
     display: inline;
     max-width: height 100%;
 }
@@ -52,6 +53,7 @@ p {
 }
 input{
   font-family: 'Major Mono Display', monospace;
+  font-weight: 100px;
   color: forestgreen;
   justify-content: flex-start;
   text-decoration: bold;
@@ -74,7 +76,7 @@ main {
     text-align: center;
     margin: auto;
     padding: auto;
-    background-color: white;
+    background: rgba 0,0,0,0, 0.5;
     
     
     }
