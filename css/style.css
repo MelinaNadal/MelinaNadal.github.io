@@ -28,6 +28,16 @@ button {
     margin: 10px;
 
 }
+img {
+    max-height: 95px;
+}
+p {
+    display: inline;
+    max-width: height 100%;
+}
+article {
+   display: flex;
+}
 input{
   font-family: 'Major Mono Display', monospace;
   color: forestgreen;
@@ -36,7 +46,9 @@ input{
   padding:10px;
   margin: 10px;
 }
+
 h3 {
+    flex-direction: column;
     font-family: 'Major Mono Display', monospace;
     margin: 20px;
     padding: 30px;
@@ -49,17 +61,14 @@ main {
     align-items: center;
     text-align: center;
     margin: auto;
+    padding: auto;
     background-color: white;
     
     
     }
-
-
-
-
-
-
+   
 body {
+    display: center;
     border: 5px groove black;
     background-image: linear-gradient(rgb(68, 61, 61), grey);
     background-color: lightgray;

@@ -2,10 +2,10 @@
 A simple project that uses jQuery to add my developer skills to a list.
 
 ## Technologies Used 
--HTML5
--CSS3
--JavaScript
--jQuery
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
 - Coin Ranking API
 
 The purpose of the CryptoData is to get information on a crypto currencey of your choosing in real time by inputting the coin's numerical equal.

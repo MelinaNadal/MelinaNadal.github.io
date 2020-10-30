@@ -5,8 +5,8 @@ let userInput;
 
 const $name = $('#name');
 const $symbol = $('#symbol');
-const $price = $('#price');
-const $description = $('#description');
+const $price = $('#Price');
+const $description = $('#descRiption');
 const $iconURL = $('#iconURL')
 
 
@@ -37,7 +37,7 @@ function handleGetData(event) {
     cryptoData.symbol=response.data.coin.symbol
     cryptoData.price=response.data.coin.price
     cryptoData.description=response.data.coin.description
-    cryptoData.iconURL=response.data.coin.iconURL
+    cryptoData.iconURL=response.data.coin.iconUrl
     render()
   });
 }
@@ -48,7 +48,7 @@ function handleGetData(event) {
   $symbol.text(cryptoData.symbol);
 	$price.text(cryptoData.price);
   $description.text(cryptoData.description);
-  $iconURL.text(cryptoData.iconURL);
+  $iconURL.attr('src', `${cryptoData.iconURL}`);
  }
   
 	
