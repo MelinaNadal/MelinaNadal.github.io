@@ -11,6 +11,9 @@ https://cryptodata.vercel.app/html
 - jQuery
 - Coin Ranking API
 
+## Icebox
+a forEach() to loop through numerical coin array and fetch by coin name as well as numerical equal.
+
 
 
 ![Screen Shot 2020-10-29 at 6 11 25 PM](https://user-images.githubusercontent.com/73125103/97638376-cd3d1d00-1a12-11eb-834f-8b3a60d96cfc.png)
