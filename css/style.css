@@ -15,12 +15,24 @@ margin: 50px;
 padding: 70px;
 }
 form {
+    font-family: 'Major Mono Display', monospace;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;
     margin:25px;
+    
+}
+form { 
     font-family: 'Major Mono Display', monospace;
+    padding: 10px;
+    margin: 10px;
+
+}
+#input-box {
+    font-family:'Major Mono Display', monospace;
+    padding: 10px;
+    margin: 10px;
 }
 button {
     font-family: 'Major Mono Display', monospace;
@@ -35,8 +47,8 @@ p {
     display: inline;
     max-width: height 100%;
 }
-article {
-   display: flex;
+
+   
 }
 input{
   font-family: 'Major Mono Display', monospace;
